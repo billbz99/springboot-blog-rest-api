@@ -7,6 +7,7 @@ public class BlogAPIException extends RuntimeException {
     private HttpStatus status;
     private String message;
 
+    // Bill testing git
     public BlogAPIException(HttpStatus status, String message) {
         this.status = status;
         this.message = message;
